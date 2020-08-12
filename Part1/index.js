@@ -27,27 +27,35 @@ function play(clickedId){
 
   if(topRight !== undefined && topRight === topCenter && topRight === topLeft){
       alert(`${topRight} wins!` )
+      reset()
       return
   } else if(middleLeft !== undefined && topLeft === topCenter && topLeft === topRight){
       alert(`${middleLeft} wins!`)
+      reset()
       return
   } else if(bottomLeft !== undefined && bottomLeft === bottomCenter && bottomLeft === bottomRight){
       alert(`${bottomLeft} wins!`)
+      reset()
       return
   }else if(topLeft !== undefined && topLeft === middleLeft && topLeft === bottomLeft){
       alert(`${topLeft} wins!`)
+      reset()
       return
   } else if(topCenter !== undefined && topCenter === middleCenter && topCenter === bottomCenter){
       alert(`${topCenter} wins!`)
-      return
+      reset()
+      return 
   } else if(topRight !== undefined && topRight === middleRight && topRight === bottomRight){
       alert(`${topRight} wins!`)
+      reset()
       return
   } else if(topLeft !== undefined && topLeft === middleCenter && topLeft === bottomRight){
       alert(`${topLeft} wins!`)
+      reset()
       return
   } else if(topRight !== undefined && topRight === middleCenter && topRight === bottomLeft){
       alert(`${topRight} wins!`)
+      reset()
       return
   }
   let boardFull = true

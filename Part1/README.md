@@ -336,7 +336,7 @@ function play(clickedId) {
 </details>
 
 ## Black Diamond 
-
+e4
 1. Create a function that resets the board after each game. This function should be called after the winner is revealed.
 2. Add a button that runs the reset function when it is clicked.
 3. The current logic allows players to override a square that has already been played. Alter the function to remove the ability to override a square. 
@@ -345,7 +345,7 @@ function play(clickedId) {
 
 ## Contributions
 
-If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review you\\\\0\00000mnnr changes and merge them into the master repo and branch.
 
 ## Copyright
 
