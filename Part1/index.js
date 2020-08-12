@@ -70,6 +70,9 @@ for(i=0; i <= 8; i++){
     }
     return board = []
 }
+
+document.getElementById('resetB').addEventListener("click", reset)
+
 // if 0 1 2 = x then x wins
 // if 0 1 2 = o then o wins
 // if 3 4 5 = x
