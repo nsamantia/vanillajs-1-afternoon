@@ -50,15 +50,25 @@ function play(clickedId){
       alert(`${topRight} wins!`)
       return
   }
-  boardFull = true
-  for (i=0; i < 9; i++){
+  let boardFull = true
+  for (i=0; i <= 8; i++){
     if (board[i] === undefined){
         boardFull = false
-    } else if(i === 9){
-        alert(`That was a cat's game`)
-    }
+    } 
   }
+  if(boardFull === true){
+    alert(`That was a cat's game`)
+    }
 
+}
+
+function reset(){
+for(i=0; i <= 8; i++){
+
+    document.getElementById(i).innerText = ''
+    
+    }
+    return board = []
 }
 // if 0 1 2 = x then x wins
 // if 0 1 2 = o then o wins
